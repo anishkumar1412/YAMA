@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">YANA </string>
+    <string name="termsAndConditons">By continuing, you agree to the <a href="https://yana.com">T&amp;C</a> and <a href="https://yana.com">Privacy Policy</a></string>
+    <string name="enter_your_phone_no">+91 | Enter your Phone no</string>
+    <string name="question_mark">?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="vehicle1">Rs .30/- Per Hour </string>
+    <string name="vehicle1info">OD 05L 2351 </string>
+    <string name="vehicle1distance">2.5 km Away </string>
+    <string name="vehicle1range">50 kms </string>
+    <string name="book_now"> Select this </string>
+
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+    <string name="vehicle_no"> OD 06H\nXXXX</string>
+    <string name="vehicle_price"> ₹ 120/- daily </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

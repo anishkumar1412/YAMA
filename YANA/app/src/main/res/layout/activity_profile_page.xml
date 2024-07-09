@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".profile_page">
+
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="98dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/design"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="101dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/user__1_" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Let's complete your Profile"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout14"
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/design"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/user__1_" />
+
+
+        <EditText
+            android:id="@+id/name"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:ems="15"
+            android:hint="Name"
+
+            android:inputType="text"
+            android:textColorHint="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/design"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/user__1_" />
+
+
+        <EditText
+            android:id="@+id/email"
+            
+            android:inputType="textEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:ems="15"
+
+            android:hint="E-mail"
+            android:textColorHint="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/design"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.455">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/user__1_" />
+
+
+        <EditText
+            android:id="@+id/phone"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:ems="15"
+android:inputType="phone"
+            android:hint="Phone"
+            android:textColorHint="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/design"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/user__1_" />
+
+
+        <EditText
+            android:id="@+id/address"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:ems="15"
+            android:hint="Address"
+            android:inputType="phone"
+            android:textColorHint="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/design"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/user__1_" />
+
+
+        <EditText
+            android:id="@+id/enumber"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:ems="15"
+            android:hint="Emergency Number"
+            android:inputType="phone"
+            android:textColorHint="@color/black" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="12dp"
+        android:background="@drawable/design"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.826">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/user__1_" />
+
+
+        <EditText
+            android:id="@+id/pickDocument"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:ems="15"
+            android:text="Click to add Documents"
+            android:textAllCaps="false"
+            android:textColorHint="@color/black" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSubmit"
+        android:layout_width="132dp"
+        android:layout_height="40dp"
+
+
+        android:background="@drawable/book_btn"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/tvFileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Document Selected"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout13" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

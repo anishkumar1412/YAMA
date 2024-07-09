@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1041518707829",
+    "project_id": "fir-otp-f7c96",
+    "storage_bucket": "fir-otp-f7c96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041518707829:android:a694462e56e2a2eddce43c",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAULmBqF5tY5NT3H-oYLFgd5WABwN5l_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
